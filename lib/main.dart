@@ -32,6 +32,20 @@ class _appState extends State<app> {
           fit: BoxFit.cover,
         ),
       ),
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        crossAxisAlignment: CrossAxisAlignment.center,
+        children: [
+          Row(
+            children: [
+              FlatButton(
+                onPressed: () {},
+                child: Text('LOGIN'),
+              ),
+            ],
+          )
+        ],
+      ),
     );
   }
 }
