@@ -88,6 +88,30 @@ class _appState extends State<app> {
               ),
             ),
           ),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Container(
+              width: MediaQuery.of(context).size.width / 1.3,
+              child: ClipRRect(
+                borderRadius: BorderRadius.all(Radius.circular(12)),
+                child: InkWell(
+                  onTap: () {
+                    print('hi');
+                  },
+                  child: Container(
+                    height: h / 15.5,
+                    color: Colors.blue,
+                    child: Center(
+                      child: Text(
+                        'SUBMIT',
+                        style: TextStyle(color: Colors.white),
+                      ),
+                    ),
+                  ),
+                ),
+              ),
+            ),
+          ),
           Text('OR'),
           FlatButton(
             onPressed: () {},
