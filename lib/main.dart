@@ -37,10 +37,15 @@ class _appState extends State<app> {
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           Row(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
               FlatButton(
                 onPressed: () {},
                 child: Text('LOGIN'),
+              ),
+              FlatButton(
+                onPressed: () {},
+                child: Text('SIGNUP'),
               ),
             ],
           )
