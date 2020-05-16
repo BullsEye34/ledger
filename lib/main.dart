@@ -93,6 +93,7 @@ class _appState extends State<app> {
             onPressed: () {},
             child: SvgPicture.asset(
               'assets/google.svg',
+              height: h / 25,
             ),
           ),
         ],
