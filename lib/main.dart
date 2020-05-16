@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 void main() {
   runApp(MaterialApp(
@@ -86,7 +87,7 @@ class _appState extends State<app> {
             ),
           ),
           Text('OR'),
-          IconButton(icon: Icon(Icons.), onPressed: null)
+          IconButton(icon: Icon(FontAwesomeIcons.google), onPressed: null)
         ],
       ),
     );
