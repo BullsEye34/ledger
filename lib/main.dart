@@ -48,7 +48,45 @@ class _appState extends State<app> {
                 child: Text('SIGNUP'),
               ),
             ],
-          )
+          ),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Container(
+              width: MediaQuery.of(context).size.width / 1.3,
+              child: Container(
+                child: TextFormField(
+                    keyboardType: TextInputType.emailAddress,
+                    //controller: uname,
+                    decoration: InputDecoration(
+                      prefixIcon: Icon(Icons.face),
+                      border: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(15.0),
+                      ),
+                      labelText: 'Username (Mail ID)',
+                    )),
+              ),
+            ),
+          ),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Container(
+              width: MediaQuery.of(context).size.width / 1.3,
+              child: Container(
+                child: TextFormField(
+                    keyboardType: TextInputType.emailAddress,
+                    //controller: uname,
+                    decoration: InputDecoration(
+                      prefixIcon: Icon(Icons.face),
+                      border: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(15.0),
+                      ),
+                      labelText: 'Password',
+                    )),
+              ),
+            ),
+          ),
+          Text('OR'),
+          IconButton(icon: Icon(Icons.), onPressed: null)
         ],
       ),
     );
